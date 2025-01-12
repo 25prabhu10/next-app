@@ -8,5 +8,10 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.{tsx,jsx}": "${dirname}|Page",
+    "**/app/**/layout.{tsx,jsx}": "${dirname}|Layout",
+    "**/app/**/component.{tsx,jsx}": "${dirname}|Component"
+  }
 }

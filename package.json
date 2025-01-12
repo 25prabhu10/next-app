@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write --ignore-unknown .",
-    "format:check": "prettier --check --ignore-unknown ."
+    "format:check": "prettier --check --ignore-unknown .",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "next": "15.1.4",
